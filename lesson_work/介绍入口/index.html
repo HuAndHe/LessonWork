@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <!--=============== basic  ===============--> 
+  <meta http-equiv="Content-Type" content="text/html; charset=gb2312" /> 
+  <meta name="description" content="2015320907户攀 3月份实训课作品
+
+" /> 
+  <meta name="keywords" content="" /> 
+  <meta name="author" content="" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+  <title>虚拟现实项目实践</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /> 
+  <!--=============== css  ===============--> 
+  <link rel="stylesheet" href="css/font-awesome.min.css" /> 
+  <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" /> 
+  <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen" /> 
+  <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" media="screen" /> 
+  <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" /> 
+  <link rel="stylesheet" href="css/magnific-popup.css" media="all" /> 
+  <link rel="stylesheet" href="css/superslides.css" type="text/css" media="screen" /> 
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" /> 
+  <!--=============== modernizr  ===============--> 
+  <script src="js/modernizr.custom.97074.js"></script> 
+  <!--=============== ie styles  ===============--> 
+  <!--[if IE 8]><link rel="stylesheet" type="text/css" href="/css/ie8.css" /><![endif]--> 
+  <!--=============== favicons ===============--> 
+  <style>
+
+	::selection {background: #f54f36;}
+
+::-moz-selection {background: #f54f36;}
+
+#jpreBar,.patern span,.red,.nav-button span,.inner-overlay,.skillbar-bar,.serviseslider h3 span,.icon-holder,.subscriptionForm2 input#submitButton,#loadingProgress,.planContainer .price,.planContainer .button a, .sepcolor,.quote-icon,.skillbar-bar,#facts ul li h6,.skillbar-bar-member,.member-social-list li a,#closeProject a,#ajaxpage a.lanch-project,#clientlist,#contact_form textarea:focus,#contact_form input:focus, .owl-theme .owl-controls .owl-page.active span,.owl-theme .owl-controls .clickable .owl-page:hover span,.slides-pagination a.current,.slides-pagination a:hover,.submit_btn:hover, .pagination li.thisclass, .pagination a:hover, .project-details a{background:#f54f36;}
+
+#team .content,#options li.back,#subscribe .content,#prices .content, .simple-page{border-top:2px solid #f54f36;}
+
+#facts ul li h6:before {border-bottom-color: #f54f36;}
+
+#testimonials .content{border-top:2px solid #f54f36;border-bottom:2px solid #f54f36;}
+
+.actser:after {border-top-color: #f54f36;}
+
+.inner a:hover , .inner li.current a{color:#f54f36;border-right:2px solid #f54f36;}
+
+.customNavigation a.next-slide{background:#f54f36 url(images/pl-small.png) no-repeat center;}
+
+.customNavigation a.close{background:#f54f36 url(images/close-white.png) no-repeat center;}
+
+.customNavigation a.btn:hover{box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #f54f36, 0 0 0 10px rgba(255,255,255,0.5);}
+
+.ajl,.bigtext,.sections-head,.slides-container h1 span,.planContainer .options li,.error,#options li:hover,#options li.actcat,.social-list ul li a:hover,.num,.project-description h3,.project-details h3,.subcribe div#error,.subcribe div#success,.smallicon:hover,.footer, .simple-page-head .content h2 span, .post-body a, .widget h4, .search-submit, .tagcloud a:hover, #comments-title , #reply-title , .controls button:hover, .share-options a:hover, .portfolio-nav a, .footer a{color:#f54f36;}
+
+.triangle{border-color: transparent #f54f36 transparent transparent;}
+
+.popup-gallery a span {background: #f54f36 url(images/pl-small.png) no-repeat center;}
+
+.social-list ul li.back{border-top: 1px solid #f54f36;}
+
+.to-top:after {border-bottom-color: #f54f36;}
+
+.flex-direction-nav .flex-next { background: #f54f36 url(images/project-next1.png) no-repeat center;}
+
+.flex-direction-nav .flex-prev {background: #f54f36 url(images/project-prev1.png) no-repeat center;}
+
+@media only screen and  (max-width: 540px) {.but h3{color:#f54f36;}}
+
+	</style> 
+ </head> 
+ <body onload="initialize()"> 
+  <div id="main"> 
+   <!--=============== navigation ===============--> 
+   <div class="navigation isDown"> 
+    <div class="nav-overlay"></div> 
+    <div class="nav-button transition"> 
+     <span></span> 
+     <span></span> 
+     <span></span> 
+    </div> 
+    <div class="inner"> 
+     <img src="images/logo.png" class="logo" alt="机器学习 " /> 
+     <div class="link-holder" id="nav"> 
+      <ul> 
+       <li class="current"><a href="/">首页</a></li> 
+       <li><a href="#about" class="scroll-link">关于我们</a></li> 
+       <li><a href="#facts">机器学习指南</a></li> 
+       <li><a href="#team" class="scroll-link">我们的项目</a></li> 
+       <li><a href="#contacts" class="scroll-link">联系我们</a></li> 
+       <li><a href="#">xxx</a></li> 
+      </ul> 
+     </div> 
+    </div> 
+    <div class="social-list"> 
+     <ul> 
+      <li><a href="#" target="_blank"><i class="fa fa-facebook fa-2x"></i></a></li> 
+      <li><a href="#" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li> 
+      <li><a href="#" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li> 
+     </ul> 
+    </div> 
+   </div> 
+   <!--=============== navigation end ===============--> 
+   <div class="overlay fixed-overlay body-overlay"></div> 
+   <div class="wrapper"> 
+    <!--=============== 介绍start ===============--> 
+    <div id="intro"> 
+     <div id="topSlide"> 
+      <div id="slides"> 
+       <ul class="slides-container"> 
+        <!-- Slide 1 --> 
+        <li> 
+         <div class="rester"></div> 
+         <div class="container"> 
+          <h3>爬虫获取各地天气分析</h3> 
+          <h1 class="white">欢迎访问 <span>户攀的实训课作品</span></h1> 
+          <div class="patern clear">
+           <span></span>
+          </div> 
+         </div> 
+         <div style="background-image: url('images/1.jpg');" class="slides-big-img"></div>
+		 </li> 
+        <!-- Slide 2 --> 
+        <li> 
+         <div class="rester"></div> 
+         <div class="container"> 
+          <h3>爬虫获取各地天气分析</h3> 
+          <h1 class="white"><span>欢迎访问</span> 户攀的实训课作品</h1> 
+          <div class="patern clear">
+           <span class="right"></span>
+          </div> 
+         </div> 
+         <div style="background-image: url('images/2.jpg');" class="slides-big-img"></div> </li> 
+        <!-- Slide 3 --> 
+        <li> 
+         <div class="rester"></div> 
+         <div class="container "> 
+          <h1 class="white">机器学习 <span>数据可视化</span> Python爬虫</h1> 
+          <div class="patern clear">
+           <span></span>
+          </div> 
+         </div> 
+         <div style="background-image: url('images/3.jpg');" class="slides-big-img"></div> </li> 
+       </ul> 
+       <div class="slides-navigation"> 
+        <a href="#" class="prev"><i class="fa fa-long-arrow-left fa-2x"></i></a> 
+        <a href="#" class="next"><i class="fa fa-long-arrow-right fa-2x"></i></a> 
+       </div> 
+      </div> 
+      <a href="#about" class="start"><img src="images/start.png" alt="" title="" /></a> 
+     </div> 
+    </div>
+    <!--=============== 介绍End end ===============--> 
+    <!--=============== 关于板块 ===============--> 
+    <div id="about" class="sections ws"> 
+     <div class="content"> 
+      <div class="container"> 
+       <h3 class="sections-head">ABOUT ME</h3> 
+       <h2>关于我们</h2> 
+       <div id="owl-demo" class="owl-carousel"> 
+        <!-- slide 1--> 
+        <div class="item fist-slide"> 
+         <div class="small-separator"></div> 
+         <p>机器学习(Machine Learning, ML)是一门多领域交叉学科，涉及概率论、统计学、逼近论、凸分析、算法复杂度理论等多门学科。专门研究计算机怎样模拟或实现人类的学习行为，以获取新的知识或技能，重新组织已有的知识结构使之不断改善自身的性能。
+
+它是人工智能的核心，是使计算机具有智能的根本途径，其应用遍及人工智能的各个领域，它主要使用归纳、综合而不是演绎。 </p> 
+         <img src="images/about1.jpg" class="present-block animaper" alt="" title="" /> 
+         <div class="customNavigation"> 
+          <a class="btn next-slide transition lanch-sklills">点我查看作者</a> 
+         </div> 
+        </div> 
+        <!-- slide 2 --> 
+        <div class="item"> 
+         <div class="grid-2"> 
+          <h3 class="bigtext">户攀</h3> 
+          <div class="small-separator"></div> 
+          <p>户攀 2015320907 四川师范大学影视与传媒学院2015级数字媒体技术专业的学生，该项目的主要负责人<br>
+			联系方式：QQ 770322848	  电话 17761263790
+		  </p> 
+         </div> 
+         <div class="grid-2"> 
+          <h3 class="bigtext">刘凡</h3> 
+          <div class="small-separator"></div> 
+          <p>刘凡 2015320908四川师范大学影视与传媒学院2015级数字媒体技术专业的学生，协助完成该项目，该项目的第二成员<br>
+			</p> 
+         </div> 
+         <div class="grid-2"> 
+          <h3 class="bigtext">作品完成</h3> 
+      
+         </div> 
+         <div class="customNavigation clear"> 
+          <a class="btn btn_next close transition">next</a> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div>
+    <!--===============  关于end ===============--> 
+    <!--=============== section facts ===============--> 
+    <div id="facts" class="sections"> 
+     <div class="content"> 
+      <div class="container"> 
+       <h3 class="sections-head">机器学习指南</h3> 
+       <div class="small-separator ws"></div> 
+       <ul> 
+        <!-- fact 1--> 
+        <li class="grid-2"> 
+         <div class="milestone-counter"> 
+          <div class="stats animaper"> 
+           <div class="num" data-content="500" data-num="500">
+            
+           </div> 
+          </div> 
+         </div> <h6><i class="fa fa-users fa-2x"></i><span>Python</span></h6> </li> 
+        <!-- fact 2--> 
+        <li class="grid-2"> 
+         <div class="milestone-counter"> 
+          <div class="stats animaper"> 
+           <div class="num" data-content="398" data-num="398">
+            0
+           </div> 
+          </div> 
+         </div> <h6><i class="fa fa-rocket fa-2x"></i><span>算法</span></h6> </li> 
+        <!-- fact 3--> 
+        <li class="grid-2"> 
+         <div class="milestone-counter"> 
+          <div class="stats animaper"> 
+		  
+           <div class="num" data-content="396" data-num="390">
+            0
+           </div> 
+          </div> 
+         </div> <h6><i class="fa fa-laptop fa-2x"></i><span>机器学习</span></h6> </li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+    <!--===============  section facts end ===============--> 
+    <!--=============== section team ===============--> 
+    <div id="team" class="sections animaper ws"> 
+     <div class="content"> 
+      <div class="quote-icon">
+       <i class="fa fa-male"></i>
+      </div> 
+      <div class="container"> 
+       <h3 class="sections-head">Our team</h3> 
+       <h2>我们的项目</h2> 
+	   <div class="section1">
+	   <h3>***爬取天气数据***</h3>
+		<p>首先根据python爬虫在<a class="weather_link" href="http://lishi.tianqi.com/ ">天气网站</a>爬取成都，深圳，北京三个城市的历史天气（2011-2018）.这里爬取的数据会以xls形式保存在本地
+	目录。</p>
+		<p>然后根据office自带的图表功能做出天气随时间变化的折线图，由于爬取时保存的方式是以每月的天气数据保存的，所以折线图仅能展示某个城市某一个月的天气情况。</p>
+		<p>利用python爬虫，获取天气数据保存在本地文件目录下以xls的形式存在。代码如下所示：<br>
+		<xmp>
+		def getListByAddress(addressUrl,excelSavePath):
+		# url = "http://lishi.tianqi.com/beijing/index.html"
+		url = addressUrl
+		res = requests.get(url)
+		soup = BeautifulSoup(res.text,"html.parser")
+		dates = soup.select(".tqtongji1 ul li a")
+		workbook = xlwt.Workbook(encoding='utf-8')
+		for d in dates:
+			weatherList,title = getListByUrl(d["href"])
+			booksheet = workbook.add_sheet(title,cell_overwrite_ok=True)
+			for i,row in enumerate(weatherList):
+				for j,col in enumerate(row):
+					booksheet.write(i,j,col)
+		workbook.save(excelSavePath)
+
+
+	if __name__ == "__main__":
+		addressName = raw_input("请输入即将获取天气的城市:\n")
+		addresses = BeautifulSoup(requests.get('http://lishi.tianqi.com/').text,"html.parser")
+		queryAddress = addresses.find_all('a',text=addressName)
+		if len(queryAddress):
+			savePath = raw_input("检测到该城市天气数据，请输入即将保存天气数据的路径（如若不输入，将默认保存到c:/weather/"+addressName+".xls）:\n")
+			if not savePath.strip():
+				if not os.path.exists('c:/weather'):
+					os.makedirs('c:/weather')
+				savePath = "c:/weather/"+unicode(addressName+'.xls','utf-8')
+			for q in queryAddress:
+				getListByAddress(q["href"],savePath)
+				print("已经天气数据保存到:"+savePath)
+		else:
+			print("不存在该城市的数据")
+			</xmp>
+		通过以上代码便可以获取某个城市从2011年到2018年的天气情况表，然后用office做出折线图更清晰反映出一年四季气温的变化。
+		</p>
+		</div>
+		<div class=section2>
+		<h3>***爬取的数据展示***</h3>
+		
+		<ul class="slides-container"> 
+        <!-- Slide 1 --> 
+        <li class="weaher_slide">  
+         <div class="container">  
+          <h1 class="white"><span>成都</span></h1> 
+		  <div style="background-image: url('images/cd.png');" class="weather_img"></div>
+		  <div style="background-image: url('images/cd2018.1.png');" class="weather_img"></div>
+		  
+		  
+         </div> 
+          </li> 
+        <!-- Slide 2 --> 
+        <li class="weaher_slide"> 
+         <div class="container"> 
+          <h1 class="white"><span>上海</span></h1> 
+         </div> 
+         <div style="background-image: url('images/sh2018.2.png');" class="weather_img"></div> 
+         <div style="background-image: url('images/sh2018.1.png');" class="weather_img"></div> 
+     
+		 </li> 
+        <!-- Slide 3 --> 
+        <li class="weaher_slide"> 
+         <div class="container ">  
+          <h1 class="white"><span>天津</span> </h1> 
+         </div> 
+         <div style="background-image: url('images/tj2018.2.png');" class="weather_img"></div>
+         <div style="background-image: url('images/tj2018.1.png');" class="weather_img"></div>
+         
+		 </li> 
+       </ul> 
+	   </div>
+	   <div class="section3">
+			<h3>***分析数据(机器学习的分类)***</h3>
+			<p>
+				万物复苏的春季到来，虽然天气越来越暖和，但是昼夜温差逐渐增大，也到了我们人类流感，感冒发生的高频期，所以做好保暖工作是日常必备，由此，我想到
+				在这种季节，晚上睡得舒适是迎来新的一天的首要条件，我便通过2018年成都1月到2月的天气的最高气温和最低气温对晚上睡觉是否需要加被子做了数据分析。
+				首先从第一部分爬取的数据截取下成都2018年两个月的天气数据，加以代码分析。
+			</p>
+			<ul>
+				<ol>将获取的成都2018年1月至2月的天气数据转化为文本文档<ol>
+				<ol>利用机器学习的分类算法分析数据<ol>
+				<ol>最终效果展示</ol>
+			<ul>
+		 
+         
+          
+        
+       </ul> 
+	   <div class="container_show">  
+          <h3 class="white"><span>机器分析图片展示：</span></h3> 
+		  <div style="background-image: url('images/test1.png');" class="show_img"></div>
+		  <div style="background-image: url('images/test2.png');" class="show_img"></div>
+		  <div style="background-image: url('images/test3.png');" class="show_img"></div>
+		  
+        </div> 
+			
+			<h6>注释：代码文件存放在工程文件下的Code文件夹下;图片文件存放在工程文件夹下的Images下;各种表格存放在工程文件夹下的Table文件夹下。</h6>
+	   </div>
+	   
+	  </div>
+    
+    </div> 
+    <!--===============  section team end ===============--> 
+
+    <!--=============== section contacts ===============--> 
+    <div id="contacts" class="sections"> 
+     <div class="content"> 
+      <div class="quote-icon to-top">
+       <i class="fa fa-angle-up"></i>
+      </div> 
+      <div class="container"> 
+       <div class="contact-details"> 
+        <div class="grid-2"> 
+         <div class="smallicon animaper phone">
+          <i class="fa fa-mobile fa-2x"></i>
+         </div> 
+         <span>+86 17761263790</span> 
+        </div> 
+        <div class="grid-2 showform"> 
+         <div class="smallicon actform  animaper">
+          <i class="fa fa-envelope-o fa-2x"></i>
+         </div> 
+         <span>17761263790@sina.com</span> 
+        </div> 
+        <div class="grid-2"> 
+         <div class="smallicon animaper showmap mnv ">
+          <i class="fa fa-home fa-2x"></i>
+         </div> 
+         <span>四川省成都市锦江区静安路5号</span> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="social-list"> 
+       <ul> 
+        <li><a href="#" target="_blank" class="transition"><i class="fa fa-facebook"></i></a></li> 
+        <li><a href="#" target="_blank" class="transition"><i class="fa fa-weibo"></i></a></li> 
+        <li><a href="#" target="_blank" class="transition"><i class="fa fa-linkedin"></i></a></li> 
+       </ul> 
+      </div> 
+      <!-- footer --> 
+      <div class="footer clear"> 
+       <p>Copyright &copy; 2018.3 <a href="#">hupan.com</a></p> 
+       <div class="small-separator ws"></div> 
+      </div> 
+      <!--footer end--> 
+     </div> 
+    </div>
+    <!--=============== section contacts end ===============--> 
+   </div> 
+   <!--=============== wrapper end ===============--> 
+  </div>
+  <!--=============== main end ===============--> 
+  <!--=============== javascript ===============--> 
+  <script type="text/javascript" src="js/jquery.min.js"></script> 
+  <script type="text/javascript" src="js/jpreloader.min.js"></script> 
+  <script type="text/javascript" src="js/smoothscroll.js"></script> 
+  <script type="text/javascript" src="js/jquery.easing.1.3.js"></script> 
+  <script type="text/javascript" src="js/superslides.js"></script> 
+  <script type="text/javascript" src="js/mixitup.js"></script> 
+  <script type="text/javascript" defer="" src="js/jquery.flexslider.js"></script> 
+  <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script> 
+  <script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script> 
+  <script type="text/javascript" src="js/hoverdir.js"></script> 
+  <script type="text/javascript" src="js/owl.carousel.min.js"></script> 
+  <script type="text/javascript" src="js/appear.js"></script> 
+  <script type="text/javascript" src="js/jquery.nav.js"></script> 
+  <script type="text/javascript" src="js/fitvids.js"></script> 
+  <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script> 
+  <script type="text/javascript" src="js/jquery.hammer.min.js"></script> 
+  <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script> 
+  <script type="text/javascript" src="js/scripts.js"></script>  
+ </body>
+</html>
